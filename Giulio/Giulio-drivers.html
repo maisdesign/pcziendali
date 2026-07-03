@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Driver PC Giulio</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; margin: 2rem; color: #1a1a1a; }
+  h1 { color: #2f5496; }
+  table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+  th { background: #2f5496; color: #fff; }
+  tr:nth-child(even) { background: #f0f4fa; }
+  a.driver-link { display: inline-block; padding: 4px 10px; background: #2f5496; color: #fff; text-decoration: none; border-radius: 4px; font-size: 0.9rem; }
+  a.driver-link:hover { background: #1d3a73; }
+  .critico { color: #b00020; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>Driver PC Giulio — Design Workstation</h1>
+<p>Motherboard Gigabyte B650 Eagle AX &middot; AMD Ryzen 5 9600X &middot; NVIDIA RTX 5060</p>
+<p class="critico">Attenzione: installa il chipset AMD prima del driver NVIDIA.</p>
+<table>
+<thead>
+<tr><th>Componente</th><th>Modello</th><th>Link</th><th>Note</th></tr>
+</thead>
+<tbody>
+<tr><td>Motherboard Chipset</td><td>Gigabyte B650 Eagle AX - AMD</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td class="critico">AMD AM5 chipset driver (CRITICO - installare prima di NVIDIA)</td></tr>
+<tr><td>Motherboard Chipset</td><td>Gigabyte B650 Eagle AX - Intel LAN</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td>Realtek ethernet driver</td></tr>
+<tr><td>GPU Integrata</td><td>AMD Radeon (Ryzen 5 9600X)</td><td><a class="driver-link" href="https://www.amd.com/en/support" target="_blank" rel="noopener">Apri link driver</a></td><td>Radeon driver per GPU integrata Zen 4</td></tr>
+<tr><td>GPU Dedicata</td><td>NVIDIA GeForce RTX 5060 Windforce</td><td><a class="driver-link" href="https://www.nvidia.com/Download/driverDetails.aspx" target="_blank" rel="noopener">Apri link driver</a></td><td>NVIDIA driver WHQL - seleziona RTX 5060 + Win11 64-bit</td></tr>
+<tr><td>Audio</td><td>Gigabyte B650 Eagle AX Audio</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td>Realtek audio driver</td></tr>
+<tr><td>Ethernet</td><td>Gigabyte B650 Eagle AX LAN</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td>Realtek Gigabit Ethernet</td></tr>
+<tr><td>WiFi</td><td>Mediatek/WiFi 6E</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td>WiFi 6E driver (MediaTek o Intel a seconda del modello)</td></tr>
+<tr><td>Cooler</td><td>Thermalright PA120 SE ARGB</td><td><a class="driver-link" href="https://www.thermalright.com" target="_blank" rel="noopener">Apri link driver</a></td><td>Driver ARGB per controllo RGB (opzionale)</td></tr>
+<tr><td>PSU</td><td>ThermalTake 850W</td><td><a class="driver-link" href="https://www.thermaltakeusa.com" target="_blank" rel="noopener">Apri link driver</a></td><td>Driver USB per monitoring (opzionale)</td></tr>
+<tr><td>SSD</td><td>Acer Predator GM7</td><td><a class="driver-link" href="https://www.acer.com/ac/en/US/content/drivers" target="_blank" rel="noopener">Apri link driver</a></td><td>Driver NVMe (raramente necessario)</td></tr>
+<tr><td>BIOS</td><td>Gigabyte B650 Eagle AX</td><td><a class="driver-link" href="https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x" target="_blank" rel="noopener">Apri link driver</a></td><td>BIOS update opzionale - controlla versione consigliata per RTX 5060</td></tr>
+</tbody>
+</table>
+</body>
+</html>
