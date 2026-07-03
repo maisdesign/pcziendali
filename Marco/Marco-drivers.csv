@@ -1,0 +1,9 @@
+Component,Model,URL,Notes
+Motherboard Chipset,Gigabyte B550M AORUS Elite AX,https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-1x,Scarica chipset driver AMD X570/B550
+GPU Integrata,AMD Radeon (Ryzen 5 5600G),https://www.amd.com/en/support,Radeon driver per GPU integrata Vega (RDNA)
+Audio,Gigabyte B550M Audio,https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-1x,Realtek audio driver
+Ethernet,Gigabyte B550M LAN,https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-1x,Intel Gigabit Ethernet
+WiFi,Intel WiFi 6 (802.11ax),https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-1x,Intel Wireless-AC/WiFi driver
+Tastiera,Logitech G213 Prodigy,https://support.logi.com/en_us,Logitech G HUB (opzionale - per macro/RGB)
+SSD,Acer Predator GM7,https://www.acer.com/ac/en/US/content/drivers,Driver NVMe (raramente necessario)
+BIOS,Gigabyte B550M AORUS Elite AX,https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-1x,BIOS update opzionale - aggiorna solo se ha problemi

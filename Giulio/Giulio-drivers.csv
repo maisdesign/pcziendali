@@ -1,0 +1,12 @@
+Component,Model,URL,Notes
+Motherboard Chipset,Gigabyte B650 Eagle AX - AMD,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,AMD AM5 chipset driver (CRITICO - installare prima di NVIDIA)
+Motherboard Chipset,Gigabyte B650 Eagle AX - Intel LAN,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,Realtek ethernet driver
+GPU Integrata,AMD Radeon (Ryzen 5 9600X),https://www.amd.com/en/support,Radeon driver per GPU integrata Zen 4
+GPU Dedicata,NVIDIA GeForce RTX 5060 Windforce,https://www.nvidia.com/Download/driverDetails.aspx,NVIDIA driver WHQL - seleziona RTX 5060 + Win11 64-bit
+Audio,Gigabyte B650 Eagle AX Audio,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,Realtek audio driver
+Ethernet,Gigabyte B650 Eagle AX LAN,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,Realtek Gigabit Ethernet
+WiFi,Mediatek/WiFi 6E,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,WiFi 6E driver (MediaTek o Intel a seconda del modello)
+Cooler,Thermalright PA120 SE ARGB,https://www.thermalright.com,Driver ARGB per controllo RGB (opzionale)
+PSU,ThermalTake 850W,https://www.thermaltakeusa.com,Driver USB per monitoring (opzionale)
+SSD,Acer Predator GM7,https://www.acer.com/ac/en/US/content/drivers,Driver NVMe (raramente necessario)
+BIOS,Gigabyte B650 Eagle AX,https://www.gigabyte.com/Motherboard/B650E-EAGLE-AX-rev-1x,BIOS update opzionale - controlla versione consigliata per RTX 5060
