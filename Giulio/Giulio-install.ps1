@@ -39,7 +39,7 @@ $software = @(
     @{id="WizTree"; name="WizTree"},
     @{id="Node.js.Node.js"; name="Node.js LTS"},
     @{id="Adobe.CreativeCloud"; name="Adobe Creative Cloud"},
-    @{id="Figma.Figma"; name="Figma"},
+    @{id="Figma.Figma"; name="Figma"}
 )
 
 foreach ($app in $software) {

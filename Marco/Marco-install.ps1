@@ -42,7 +42,7 @@ $software = @(
     @{id="WizTree"; name="WizTree"},
     @{id="Docker.DockerDesktop"; name="Docker Desktop"},
     @{id="Node.js.Node.js"; name="Node.js LTS"},
-    @{id="Google.CloudSDK"; name="Google Cloud SDK"},
+    @{id="Google.CloudSDK"; name="Google Cloud SDK"}
 )
 
 foreach ($app in $software) {
