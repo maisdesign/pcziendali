@@ -10,10 +10,15 @@
 function Install-Software {
     param(
         [string]$PackageId,
-        [string]$Name
+        [string]$Name,
+        [string]$Source = ""
     )
     Write-Host "Installando $Name..." -ForegroundColor Cyan
-    winget install -e --id $PackageId --accept-package-agreements --accept-source-agreements
+    if ($Source) {
+        winget install -e --id $PackageId --source $Source --accept-package-agreements --accept-source-agreements
+    } else {
+        winget install -e --id $PackageId --accept-package-agreements --accept-source-agreements
+    }
 }
 
 Write-Host "╔════════════════════════════════════════════════════════════════╗" -ForegroundColor Green
@@ -42,11 +47,23 @@ $software = @(
     @{id="WizTree"; name="WizTree"},
     @{id="Docker.DockerDesktop"; name="Docker Desktop"},
     @{id="Node.js.Node.js"; name="Node.js LTS"},
-    @{id="Google.CloudSDK"; name="Google Cloud SDK"}
+    @{id="Google.CloudSDK"; name="Google Cloud SDK"},
+    @{id="Anthropic.Claude"; name="Claude"},
+    @{id="OpenAI.Codex"; name="Codex CLI"},
+    @{id="DoltHub.Dolt"; name="Dolt"},
+    @{id="Microsoft.PowerToys"; name="PowerToys"},
+    @{id="Python.Python.3.13"; name="Python 3.13"},
+    @{id="WhirlwindFX.SignalRgb"; name="SignalRGB"},
+    @{id="VideoLAN.VLC"; name="VLC"},
+    @{id="9NT1R1C2HH7J"; name="ChatGPT"; source="msstore"}
 )
 
 foreach ($app in $software) {
-    Install-Software -PackageId $app.id -Name $app.name
+    if ($app.source) {
+        Install-Software -PackageId $app.id -Name $app.name -Source $app.source
+    } else {
+        Install-Software -PackageId $app.id -Name $app.name
+    }
     Start-Sleep -Seconds 2
 }
 
@@ -58,9 +75,6 @@ Write-Host "╚═════════════════════�
 Write-Host ""
 Write-Host "I seguenti software richiedono installazione manuale:" -ForegroundColor Cyan
 Write-Host "  • Antigravity IDE"
-Write-Host "  • Claude (desktop app)"
-Write-Host "  • Codex"
-Write-Host "  • Dolt 1.86.6 (da GitHub releases)"
 Write-Host "  • Herd (Laravel) - https://herd.laravel.com"
 Write-Host "  • iSpring Free 8"
 Write-Host "  • WP Local"
