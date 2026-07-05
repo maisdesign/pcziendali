@@ -1,0 +1,7 @@
+Component,Model,URL,Notes
+Motherboard Chipset,ASRock B850 Steel Legend WiFi,https://www.asrock.com/mb/AMD/B850%20Steel%20Legend%20WiFi/index.asp#Download,Scarica chipset driver AMD B850 (sezione Chipset)
+GPU Integrata + Dedicata,AMD Radeon Graphics + RX 9060 XT,https://www.amd.com/en/support,AMD Software Adrenalin Edition - un solo installer copre entrambe le GPU
+Audio,Realtek HD Audio,https://www.asrock.com/mb/AMD/B850%20Steel%20Legend%20WiFi/index.asp#Download,Sezione Audio nella pagina download ASRock
+Ethernet,Realtek Gaming 2.5GbE,https://www.asrock.com/mb/AMD/B850%20Steel%20Legend%20WiFi/index.asp#Download,Sezione LAN nella pagina download ASRock
+WiFi/Bluetooth,MediaTek RZ717 WiFi 7,https://www.asrock.com/mb/AMD/B850%20Steel%20Legend%20WiFi/index.asp#Download,Sezione WiFi/Bluetooth nella pagina download ASRock
+BIOS,ASRock B850 Steel Legend WiFi,https://www.asrock.com/mb/AMD/B850%20Steel%20Legend%20WiFi/index.asp#BIOS,BIOS update opzionale - aggiorna solo se necessario (versione attuale rilevata: 3.30)
