@@ -44,6 +44,15 @@ Set-ItemProperty -Path $advanced -Name "Hidden" -Value 1 -Type DWord
 Write-Host "Esplora File: apertura su Questo PC..." -ForegroundColor Cyan
 Set-ItemProperty -Path $advanced -Name "LaunchTo" -Value 1 -Type DWord
 
+# --- Alimentazione: monitor OFF dopo 3 minuti, PC mai in sospensione/ibernazione ---
+Write-Host "Alimentazione: monitor off dopo 3 min, niente sospensione/ibernazione..." -ForegroundColor Cyan
+powercfg /change monitor-timeout-ac 3
+powercfg /change monitor-timeout-dc 3
+powercfg /change standby-timeout-ac 0
+powercfg /change standby-timeout-dc 0
+powercfg /change hibernate-timeout-ac 0
+powercfg /change hibernate-timeout-dc 0
+
 Write-Host ""
 Write-Host "Riavvio Esplora risorse per applicare le modifiche..." -ForegroundColor Yellow
 Stop-Process -Name explorer -Force
