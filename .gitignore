@@ -1,1 +1,4 @@
 .claude/settings.local.json
+Marco-casa/drivers/**/*.zip
+Marco-casa/drivers/**/*.exe
+Marco-casa/drivers/**/*.msi
