@@ -1,4 +1,7 @@
 .claude/settings.local.json
-Marco-casa/drivers/**/*.zip
-Marco-casa/drivers/**/*.exe
-Marco-casa/drivers/**/*.msi
+
+# I driver veri e propri restano solo in locale (troppo grandi/binari per git),
+# si tiene solo la struttura delle cartelle tramite i file .gitkeep
+*/drivers/**
+!*/drivers/**/
+!*/drivers/**/.gitkeep
