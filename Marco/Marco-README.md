@@ -79,17 +79,19 @@ Apri **PowerShell come Administrator**:
 # Abilita esecuzione script
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 
-# Naviga alla cartella dello script
-cd C:\path\to\Marco-install.ps1
+# Naviga alla cartella dell'installer condiviso (stesso software per PC lavoro e casa)
+cd C:\path\to\Marco-casa
 
 # Esegui
-.\Marco-install.ps1
+.\install-software.ps1   # oppure doppio click su install-software.bat
 ```
 
 Lo script installerà automaticamente:
 - 7-zip, Git, GitHub CLI, Chrome, VSCode, Postman
 - FileZilla, Notepad++, SourceTree, WizTree
 - Docker Desktop, Node.js, Google Cloud SDK
+- GitHub Desktop, Antigravity IDE, WSL, PowerShell 7
+- Local (WordPress), WinSCP, Rclone, PowerToys, Python, VLC
 
 **Nota:** Alcuni software richiedono installazione manuale (vedi sotto).
 

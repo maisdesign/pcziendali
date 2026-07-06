@@ -81,7 +81,7 @@ automatizzabile.
 
 ### 3.1 Esegui lo script automatico
 
-Doppio click su **Marco-casa-install.bat** (chiede i permessi di amministratore
+Doppio click su **install-software.bat** (chiede i permessi di amministratore
 e lancia lo script PowerShell), oppure manualmente:
 
 ```powershell
@@ -92,7 +92,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 cd C:\path\to\Marco-casa
 
 # Esegui
-.\Marco-casa-install.ps1
+.\install-software.ps1
 ```
 
 Lo script installerà automaticamente:

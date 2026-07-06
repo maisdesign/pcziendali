@@ -20,8 +20,11 @@ Checklist rapida per l'installazione di un PC. Per i dettagli completi vedi [SET
 - [ ] PowerShell come Administrator:
   ```powershell
   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
-  cd Marco   # oppure Giulio
-  .\Marco-install.ps1   # oppure .\Giulio-install.ps1
+  # Marco (PC lavoro e casa) - installer software condiviso:
+  cd Marco-casa
+  .\install-software.ps1   # oppure doppio click su install-software.bat
+  # Giulio:
+  cd ..\Giulio; .\Giulio-install.ps1
   ```
   Lo script installa via `winget` solo il software elencato nel README; **non installa driver**.
 

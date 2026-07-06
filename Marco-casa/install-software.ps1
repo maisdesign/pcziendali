@@ -1,11 +1,11 @@
 ﻿# ============================================================================
-# PC MARCO-CASA - Install Script
-# Windows 11 - Dev Workstation (Casa)
+# INSTALL SOFTWARE - PC MARCO (lavoro + casa)
+# Windows 11 - Dev Workstation. Elenco software condiviso per entrambi i PC.
 # ============================================================================
 # Esegui come Administrator:
 # Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
-# .\Marco-casa-install.ps1
-# (oppure lancia Marco-casa-install.bat con doppio click)
+# .\install-software.ps1
+# (oppure lancia install-software.bat con doppio click)
 
 # Funzione helper per installare con winget
 function Install-Software {
@@ -56,6 +56,13 @@ $software = @(
     @{id="Python.Python.3.13"; name="Python 3.13"},
     @{id="WhirlwindFX.SignalRgb"; name="SignalRGB"},
     @{id="VideoLAN.VLC"; name="VLC"},
+    @{id="Google.AntigravityIDE"; name="Antigravity IDE"},
+    @{id="GitHub.GitHubDesktop"; name="GitHub Desktop"},
+    @{id="Microsoft.WSL"; name="WSL (Sottosistema Linux)"},
+    @{id="Microsoft.PowerShell"; name="PowerShell 7"},
+    @{id="Flywheel.Local"; name="Local (WordPress)"},
+    @{id="WinSCP.WinSCP"; name="WinSCP"},
+    @{id="Rclone.Rclone"; name="Rclone"},
     @{id="9NT1R1C2HH7J"; name="ChatGPT"; source="msstore"}
 )
 
@@ -75,10 +82,8 @@ Write-Host "╚═════════════════════�
 
 Write-Host ""
 Write-Host "I seguenti software richiedono installazione manuale:" -ForegroundColor Cyan
-Write-Host "  • Antigravity IDE"
 Write-Host "  • Herd (Laravel) - https://herd.laravel.com"
 Write-Host "  • iSpring Free 8"
-Write-Host "  • WP Local"
 Write-Host "  • McAfee (personale)"
 Write-Host "  • Microsoft 365 (personale)"
 Write-Host "  • Myinstants App"

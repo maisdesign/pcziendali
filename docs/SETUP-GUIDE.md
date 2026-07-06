@@ -12,7 +12,6 @@ Repository con script e guide per l'installazione rapida di due PC aziendali:
 pcziendali/
 ├── Marco/
 │   ├── Marco-README.md          (LEGGERE PRIMA)
-│   ├── Marco-install.ps1        (Script automatico)
 │   ├── Marco-drivers.csv        (Lista driver da scaricare)
 │   └── drivers/                 (Cartella driver - popolare manualmente)
 │       ├── chipset/
@@ -113,11 +112,12 @@ Impostazioni → Windows Update → Verifica aggiornamenti
 # Abilita esecuzione script
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 
-# Naviga alla cartella e esegui lo script
-cd C:\path\to\pcziendali\Marco\
-.\Marco-install.ps1
+# Marco (PC lavoro e casa) - installer software condiviso
+cd C:\path\to\pcziendali\Marco-casa\
+.\install-software.ps1   # oppure doppio click su install-software.bat
 
 # Oppure per Giulio
+cd ..\Giulio
 .\Giulio-install.ps1
 ```
 
